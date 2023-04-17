@@ -1,3 +1,6 @@
+# My ignored
+.vscode/*
+
 # Logs
 logs
 *.log
