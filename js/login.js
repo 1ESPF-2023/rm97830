@@ -27,3 +27,5 @@ buttonSubmit.addEventListener("click", ()=>{
     }
 
 });
+
+// Listener Global
