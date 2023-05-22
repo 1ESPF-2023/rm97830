@@ -87,22 +87,22 @@
 
 //mudaBanner();
 
-//const botao = document.querySelector("button");
+const botao = document.querySelector("button");
 
-//botao.addEventListener("click", function(){
+botao.addEventListener("click", function(){
     
-//    if(this.textContent = "LIGAR"){
-//        const imgElement = document.querySelector("img[alt='Luz Desligada']");
-//        imgElement.src = "./img/pic_bulbon.gif";
-//        imgElement.alt = "Luz Ligada";
-//        this.textContent = "DESLIGAR";
-//    }else{
-//        const imgElement = document.querySelector("img[alt='Luz Ligada']");
-//        imgElement.src = "./img/pic_bulboff.gif";
-//        imgElement.alt = "Luz Desligada";
-//        this.textContent = "LIGAR";
-//    }
-//});
+    if(this.textContent = "LIGAR"){
+        const imgElement = document.querySelector("img[alt='Luz Desligada']");
+        imgElement.src = "./img/pic_bulbon.gif";
+        imgElement.alt = "Luz Ligada";
+        this.textContent = "DESLIGAR";
+    }else{
+        const imgElement = document.querySelector("img[alt='Luz Ligada']");
+        imgElement.src = "./img/pic_bulboff.gif";
+        imgElement.alt = "Luz Desligada";
+        this.textContent = "LIGAR";
+    }
+});
 
 // Estudar em casa querySelectorAll
 // Exercício:
